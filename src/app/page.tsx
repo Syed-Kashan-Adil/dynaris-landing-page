@@ -130,28 +130,15 @@ export default function DynarisLanding() {
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: '#f8fafc' }}>
-        {/* Background Elements */}
+        {/* Background Elements - Optimized for performance */}
         <div className="absolute inset-0">
           {/* Primary gradient backdrop */}
           <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-purple-25 to-blue-50"></div>
 
-          {/* Subtle pattern overlay */}
-          <div className="absolute inset-0 opacity-40">
-            <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-indigo-200 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }}></div>
-            <div className="absolute top-20 right-0 w-80 h-80 bg-gradient-to-bl from-purple-200 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }}></div>
-            <div className="absolute bottom-0 left-1/3 w-64 h-64 bg-gradient-to-tr from-blue-200 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }}></div>
-          </div>
-
-          {/* Geometric overlay patterns */}
-          <div className="absolute inset-0 opacity-10">
-            <svg className="w-full h-full" viewBox="0 0 1200 800" fill="none">
-              <defs>
-                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="1" />
-                </pattern>
-              </defs>
-              <rect width="100%" height="100%" fill="url(#grid)" className="text-indigo-500" />
-            </svg>
+          {/* Simplified pattern overlay - reduced complexity */}
+          <div className="absolute inset-0 opacity-30">
+            <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-indigo-200 to-transparent rounded-full blur-2xl"></div>
+            <div className="absolute top-20 right-0 w-80 h-80 bg-gradient-to-bl from-purple-200 to-transparent rounded-full blur-2xl"></div>
           </div>
         </div>
 
@@ -166,40 +153,34 @@ export default function DynarisLanding() {
             Architect multiple workflows and stable deployment instances which perform work 24/7.
             Deploy specialized AI agents in unified coordination to automate operations and deliver measurable business outcomes.
           </p>
-          {/* Neural Processing Architecture */}
+          {/* Neural Processing Architecture - Optimized for performance */}
           <div className="flex justify-center mb-12">
             <div className="relative w-96 h-60">
-              {/* Neural Node Network - Brain-like structure */}
+              {/* Neural Node Network - Simplified for better performance */}
 
-              {/* Left Hemisphere Nodes */}
+              {/* Left Hemisphere Nodes - Reduced to 3 nodes */}
               <div className="absolute top-8 left-8 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1">
                 <div className="w-6 h-6 bg-blue-500 rounded-full opacity-90"></div>
               </div>
-              <div className="absolute top-20 left-20 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-2" style={{ animationDelay: '0.3s' }}>
+              <div className="absolute top-20 left-20 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-2" style={{ animationDelay: '0.5s' }}>
                 <div className="w-4 h-4 bg-purple-500 rounded-full opacity-90"></div>
               </div>
-              <div className="absolute top-36 left-12 w-11 h-11 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-3" style={{ animationDelay: '0.6s' }}>
-                <div className="w-5 h-5 bg-green-500 rounded-full opacity-90"></div>
-              </div>
-              <div className="absolute bottom-16 left-16 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1" style={{ animationDelay: '0.9s' }}>
+              <div className="absolute bottom-16 left-16 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-3" style={{ animationDelay: '1s' }}>
                 <div className="w-4 h-4 bg-cyan-500 rounded-full opacity-90"></div>
               </div>
 
-              {/* Right Hemisphere Nodes */}
-              <div className="absolute top-8 right-8 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-2" style={{ animationDelay: '1.2s' }}>
+              {/* Right Hemisphere Nodes - Reduced to 3 nodes */}
+              <div className="absolute top-8 right-8 w-12 h-12 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1" style={{ animationDelay: '1.5s' }}>
                 <div className="w-6 h-6 bg-orange-500 rounded-full opacity-90"></div>
               </div>
-              <div className="absolute top-20 right-20 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-3" style={{ animationDelay: '1.5s' }}>
+              <div className="absolute top-20 right-20 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-2" style={{ animationDelay: '2s' }}>
                 <div className="w-4 h-4 bg-pink-500 rounded-full opacity-90"></div>
               </div>
-              <div className="absolute top-36 right-12 w-11 h-11 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1" style={{ animationDelay: '1.8s' }}>
-                <div className="w-5 h-5 bg-red-500 rounded-full opacity-90"></div>
-              </div>
-              <div className="absolute bottom-16 right-16 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-2" style={{ animationDelay: '2.1s' }}>
+              <div className="absolute bottom-16 right-16 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-3" style={{ animationDelay: '2.5s' }}>
                 <div className="w-4 h-4 bg-yellow-500 rounded-full opacity-90"></div>
               </div>
 
-              {/* Central Processing Unit - Brain Stem */}
+              {/* Central Processing Unit - Simplified */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className="relative">
                   <div className="w-20 h-20 bg-white border-2 border-slate-300 rounded-lg flex items-center justify-center shadow-lg">
@@ -207,12 +188,11 @@ export default function DynarisLanding() {
                       <div className="w-6 h-6 bg-white rounded-sm opacity-90 animate-pulse-slow"></div>
                     </div>
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-lg blur-lg animate-pulse"></div>
                 </div>
               </div>
 
-              {/* 9th Node - Bottom Center for Sphere Balance */}
-              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1" style={{ animationDelay: '2.4s' }}>
+              {/* Bottom Center Node */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 bg-slate-100 border border-slate-300 rounded-full flex items-center justify-center shadow-sm animate-gentle-drift-1" style={{ animationDelay: '3s' }}>
                 <div className="w-4 h-4 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full opacity-90"></div>
               </div>
             </div>
